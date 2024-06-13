@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form | Bhagirthsinh Nakum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="./index.html" onsubmit="return validateForm()" method="post" name="myform" id="myform">
+        <h2 class="head2">Bhagirathsinh Nakum</h2>
+        <h1>Registration Form</h1>
+        <div class="box">
+            <label for="uname">Username:</label>
+            <input type="text" name="uname" id="uname" placeholder="Enter Your UserName"><br>
+            <span id="v_uname"></span><br>
+
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter Your First Name"><br>
+            <span id="v_fname"></span><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name"><br>
+            <span id="v_lname"></span><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Mail Address"><br>
+            <span id="v_email"></span><br>
+
+            <label for="contact">MobileNo:</label>
+            <input type="number" name="mobileno" id="mobileno" placeholder="Enter Your Mobile No"><br>
+            <span id="v_mobileno"></span><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass"><br>
+            <span id="v_pass"></span><br>
+
+            <label for="pass">Confirm Password:</label>
+            <input type="text" name="cfpass" id="cfpass"><br>
+            <span id="v_cfpass"></span><br>
+
+            <label for="Course">Date of Birth:</label>
+            <input type="date" name="dob" id="dob"><br>
+            <span id="v_date"></span><br>
+
+            <div class="center">
+                <input type="Submit" value="Submit" class="btn">
+                <input type="Reset" value="Reset" class="btn">
+            </div>
+        </div>
+
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
